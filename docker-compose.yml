@@ -1,0 +1,6 @@
+services:
+  jenkins:
+    image: jenkins/jenkins
+    volumes:
+    ports:
+      - 8083:8080
